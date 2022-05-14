@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="5" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[click on bank manager login tab[[ChromeDriver: chrome on WINDOWS (4c4ace4372c470bed5dcf69f8ddd6bda)] -> xpath: //button[contains(text(),'Bank Manager Login')]]<br>]]>
+    </line>
+    <line>
+      <![CDATA[click on Add customer tab[[ChromeDriver: chrome on WINDOWS (4c4ace4372c470bed5dcf69f8ddd6bda)] -> xpath: /html/body/div[3]/div/div[2]/div/div[1]/button[1]]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Enter First Name: star11[[ChromeDriver: chrome on WINDOWS (4c4ace4372c470bed5dcf69f8ddd6bda)] -> xpath: /html/body/div[3]/div/div[2]/div/div[2]/div/div/form/div[1]/input]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Enter Last Name: Moon[[ChromeDriver: chrome on WINDOWS (4c4ace4372c470bed5dcf69f8ddd6bda)] -> xpath: /html/body/div[3]/div/div[2]/div/div[2]/div/div/form/div[2]/input]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Enter Post code : 124578[[ChromeDriver: chrome on WINDOWS (4c4ace4372c470bed5dcf69f8ddd6bda)] -> xpath: /html/body/div[3]/div/div[2]/div/div[2]/div/div/form/div[3]/input]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on Add customer button [[ChromeDriver: chrome on WINDOWS (4c4ace4372c470bed5dcf69f8ddd6bda)] -> xpath: /html/body/div[3]/div/div[2]/div/div[2]/div/div/form/button]<br>]]>
+    </line>
+    <line>
+      <![CDATA[verify the pop message : Customer added sucessfully<br>]]>
+    </line>
+    <line>
+      <![CDATA[click on Ok in the popup <br>]]>
+    </line>
+    <line>
+      <![CDATA[click on bank manager login tab[[ChromeDriver: chrome on WINDOWS (4c4ace4372c470bed5dcf69f8ddd6bda)] -> xpath: //button[contains(text(),'Bank Manager Login')]]<br>]]>
+    </line>
+    <line>
+      <![CDATA[click on open account tab[[ChromeDriver: chrome on WINDOWS (4c4ace4372c470bed5dcf69f8ddd6bda)] -> xpath: //body/div[3]/div[1]/div[2]/div[1]/div[1]/button[2]]<br>]]>
+    </line>
+    <line>
+      <![CDATA[select name from dropdown: [[ChromeDriver: chrome on WINDOWS (4c4ace4372c470bed5dcf69f8ddd6bda)] -> xpath: //select[@id='userSelect']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[select currency from dropdown[[ChromeDriver: chrome on WINDOWS (4c4ace4372c470bed5dcf69f8ddd6bda)] -> xpath: //select[@id='currency']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[click on process button [[ChromeDriver: chrome on WINDOWS (4c4ace4372c470bed5dcf69f8ddd6bda)] -> xpath: //button[contains(text(),'Process')]]<br>]]>
+    </line>
+    <line>
+      <![CDATA[verify the text Account created sucessfully<br>]]>
+    </line>
+    <line>
+      <![CDATA[Accept the Alert <br>]]>
+    </line>
+    <line>
+      <![CDATA[click on Coustomer login tab[[ChromeDriver: chrome on WINDOWS (4c4ace4372c470bed5dcf69f8ddd6bda)] -> xpath: //button[contains(text(),'Customer Login')]]<br>]]>
+    </line>
+    <line>
+      <![CDATA[select name from the dropdown<br>]]>
+    </line>
+    <line>
+      <![CDATA[click on login button: <br>]]>
+    </line>
+    <line>
+      <![CDATA[click on Coustomer login tab[[ChromeDriver: chrome on WINDOWS (4c4ace4372c470bed5dcf69f8ddd6bda)] -> xpath: //button[contains(text(),'Customer Login')]]<br>]]>
+    </line>
+    <line>
+      <![CDATA[select name from the dropdown<br>]]>
+    </line>
+    <line>
+      <![CDATA[click on login button: <br>]]>
+    </line>
+    <line>
+      <![CDATA[click on Coustomer login tab[[ChromeDriver: chrome on WINDOWS (4c4ace4372c470bed5dcf69f8ddd6bda)] -> xpath: //button[contains(text(),'Customer Login')]]<br>]]>
+    </line>
+    <line>
+      <![CDATA[select name from the dropdown<br>]]>
+    </line>
+    <line>
+      <![CDATA[click on login button: <br>]]>
+    </line>
+    <line>
+      <![CDATA[click on withdrawl tab[[ChromeDriver: chrome on WINDOWS (4c4ace4372c470bed5dcf69f8ddd6bda)] -> xpath: //body/div[3]/div[1]/div[2]/div[1]/div[3]/button[3]]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Enter withdraw amount: [[ChromeDriver: chrome on WINDOWS (4c4ace4372c470bed5dcf69f8ddd6bda)] -> xpath: //body/div[3]/div[1]/div[2]/div[1]/div[4]/div[1]/form[1]/div[1]/input[1]]<br>]]>
+    </line>
+    <line>
+      <![CDATA[clicck on withdraw button:  [[ChromeDriver: chrome on WINDOWS (4c4ace4372c470bed5dcf69f8ddd6bda)] -> xpath: //body/div[3]/div[1]/div[2]/div[1]/div[4]/div[1]/form[1]/div[1]/input[1]]<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="18892" started-at="2022-05-13T23:40:24 GMT-11:00" finished-at="2022-05-13T23:40:43 GMT-11:00">
+    <groups>
+      <group name="regression">
+        <method signature="BankTest.bankManagerShouldAddCustomerSuccessfully()[pri:0, instance:com.bank.testsuite.BankTest@4232c52b]" name="bankManagerShouldAddCustomerSuccessfully" class="com.bank.testsuite.BankTest"/>
+        <method signature="BankTest.bankManagerShouldOpenAccountSuccessfully()[pri:0, instance:com.bank.testsuite.BankTest@4232c52b]" name="bankManagerShouldOpenAccountSuccessfully" class="com.bank.testsuite.BankTest"/>
+        <method signature="BankTest.customerShouldDepositMoneySuccessfully()[pri:0, instance:com.bank.testsuite.BankTest@4232c52b]" name="customerShouldDepositMoneySuccessfully" class="com.bank.testsuite.BankTest"/>
+        <method signature="BankTest.customerShouldLoginAndLogoutSuceessfully()[pri:0, instance:com.bank.testsuite.BankTest@4232c52b]" name="customerShouldLoginAndLogoutSuceessfully" class="com.bank.testsuite.BankTest"/>
+        <method signature="BankTest.customerShouldWithdrawMoneySuccessfully()[pri:0, instance:com.bank.testsuite.BankTest@4232c52b]" name="customerShouldWithdrawMoneySuccessfully" class="com.bank.testsuite.BankTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="BankTest.bankManagerShouldOpenAccountSuccessfully()[pri:0, instance:com.bank.testsuite.BankTest@4232c52b]" name="bankManagerShouldOpenAccountSuccessfully" class="com.bank.testsuite.BankTest"/>
+        <method signature="BankTest.customerShouldDepositMoneySuccessfully()[pri:0, instance:com.bank.testsuite.BankTest@4232c52b]" name="customerShouldDepositMoneySuccessfully" class="com.bank.testsuite.BankTest"/>
+        <method signature="BankTest.customerShouldLoginAndLogoutSuceessfully()[pri:0, instance:com.bank.testsuite.BankTest@4232c52b]" name="customerShouldLoginAndLogoutSuceessfully" class="com.bank.testsuite.BankTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="BankTest.bankManagerShouldAddCustomerSuccessfully()[pri:0, instance:com.bank.testsuite.BankTest@4232c52b]" name="bankManagerShouldAddCustomerSuccessfully" class="com.bank.testsuite.BankTest"/>
+        <method signature="BankTest.bankManagerShouldOpenAccountSuccessfully()[pri:0, instance:com.bank.testsuite.BankTest@4232c52b]" name="bankManagerShouldOpenAccountSuccessfully" class="com.bank.testsuite.BankTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="xyz-bank" duration-ms="18892" started-at="2022-05-13T23:40:24 GMT-11:00" finished-at="2022-05-13T23:40:43 GMT-11:00">
+      <class name="com.bank.testsuite.BankTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bank.testsuite.BankTest@4232c52b]" name="setUp" is-config="true" duration-ms="2923" started-at="2022-05-13T23:40:24 GMT-11:00" finished-at="2022-05-13T23:40:27 GMT-11:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIT()[pri:0, instance:com.bank.testsuite.BankTest@4232c52b]" name="inIT" is-config="true" duration-ms="11" started-at="2022-05-13T23:40:27 GMT-11:00" finished-at="2022-05-13T23:40:27 GMT-11:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIT -->
+        <test-method status="PASS" signature="bankManagerShouldAddCustomerSuccessfully()[pri:0, instance:com.bank.testsuite.BankTest@4232c52b]" name="bankManagerShouldAddCustomerSuccessfully" duration-ms="3642" started-at="2022-05-13T23:40:27 GMT-11:00" finished-at="2022-05-13T23:40:30 GMT-11:00">
+          <reporter-output>
+            <line>
+              <![CDATA[click on bank manager login tab[[ChromeDriver: chrome on WINDOWS (4c4ace4372c470bed5dcf69f8ddd6bda)] -> xpath: //button[contains(text(),'Bank Manager Login')]]<br>]]>
+            </line>
+            <line>
+              <![CDATA[click on Add customer tab[[ChromeDriver: chrome on WINDOWS (4c4ace4372c470bed5dcf69f8ddd6bda)] -> xpath: /html/body/div[3]/div/div[2]/div/div[1]/button[1]]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Enter First Name: star11[[ChromeDriver: chrome on WINDOWS (4c4ace4372c470bed5dcf69f8ddd6bda)] -> xpath: /html/body/div[3]/div/div[2]/div/div[2]/div/div/form/div[1]/input]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Enter Last Name: Moon[[ChromeDriver: chrome on WINDOWS (4c4ace4372c470bed5dcf69f8ddd6bda)] -> xpath: /html/body/div[3]/div/div[2]/div/div[2]/div/div/form/div[2]/input]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Enter Post code : 124578[[ChromeDriver: chrome on WINDOWS (4c4ace4372c470bed5dcf69f8ddd6bda)] -> xpath: /html/body/div[3]/div/div[2]/div/div[2]/div/div/form/div[3]/input]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on Add customer button [[ChromeDriver: chrome on WINDOWS (4c4ace4372c470bed5dcf69f8ddd6bda)] -> xpath: /html/body/div[3]/div/div[2]/div/div[2]/div/div/form/button]<br>]]>
+            </line>
+            <line>
+              <![CDATA[verify the pop message : Customer added sucessfully<br>]]>
+            </line>
+            <line>
+              <![CDATA[click on Ok in the popup <br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bankManagerShouldAddCustomerSuccessfully -->
+        <test-method status="PASS" signature="inIT()[pri:0, instance:com.bank.testsuite.BankTest@4232c52b]" name="inIT" is-config="true" duration-ms="5" started-at="2022-05-13T23:40:30 GMT-11:00" finished-at="2022-05-13T23:40:30 GMT-11:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIT -->
+        <test-method status="PASS" signature="bankManagerShouldOpenAccountSuccessfully()[pri:0, instance:com.bank.testsuite.BankTest@4232c52b]" name="bankManagerShouldOpenAccountSuccessfully" duration-ms="430" started-at="2022-05-13T23:40:30 GMT-11:00" finished-at="2022-05-13T23:40:31 GMT-11:00">
+          <reporter-output>
+            <line>
+              <![CDATA[click on bank manager login tab[[ChromeDriver: chrome on WINDOWS (4c4ace4372c470bed5dcf69f8ddd6bda)] -> xpath: //button[contains(text(),'Bank Manager Login')]]<br>]]>
+            </line>
+            <line>
+              <![CDATA[click on open account tab[[ChromeDriver: chrome on WINDOWS (4c4ace4372c470bed5dcf69f8ddd6bda)] -> xpath: //body/div[3]/div[1]/div[2]/div[1]/div[1]/button[2]]<br>]]>
+            </line>
+            <line>
+              <![CDATA[select name from dropdown: [[ChromeDriver: chrome on WINDOWS (4c4ace4372c470bed5dcf69f8ddd6bda)] -> xpath: //select[@id='userSelect']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[select currency from dropdown[[ChromeDriver: chrome on WINDOWS (4c4ace4372c470bed5dcf69f8ddd6bda)] -> xpath: //select[@id='currency']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[click on process button [[ChromeDriver: chrome on WINDOWS (4c4ace4372c470bed5dcf69f8ddd6bda)] -> xpath: //button[contains(text(),'Process')]]<br>]]>
+            </line>
+            <line>
+              <![CDATA[verify the text Account created sucessfully<br>]]>
+            </line>
+            <line>
+              <![CDATA[Accept the Alert <br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bankManagerShouldOpenAccountSuccessfully -->
+        <test-method status="PASS" signature="inIT()[pri:0, instance:com.bank.testsuite.BankTest@4232c52b]" name="inIT" is-config="true" duration-ms="4" started-at="2022-05-13T23:40:31 GMT-11:00" finished-at="2022-05-13T23:40:31 GMT-11:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIT -->
+        <test-method status="FAIL" signature="customerShouldDepositMoneySuccessfully()[pri:0, instance:com.bank.testsuite.BankTest@4232c52b]" name="customerShouldDepositMoneySuccessfully" duration-ms="323" started-at="2022-05-13T23:40:31 GMT-11:00" finished-at="2022-05-13T23:40:31 GMT-11:00">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.bank.pages.AccountPage.clickOnDepositeTab(AccountPage.java:28)
+at com.bank.testsuite.BankTest.customerShouldDepositMoneySuccessfully(BankTest.java:73)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1249)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[click on Coustomer login tab[[ChromeDriver: chrome on WINDOWS (4c4ace4372c470bed5dcf69f8ddd6bda)] -> xpath: //button[contains(text(),'Customer Login')]]<br>]]>
+            </line>
+            <line>
+              <![CDATA[select name from the dropdown<br>]]>
+            </line>
+            <line>
+              <![CDATA[click on login button: <br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- customerShouldDepositMoneySuccessfully -->
+        <test-method status="PASS" signature="inIT()[pri:0, instance:com.bank.testsuite.BankTest@4232c52b]" name="inIT" is-config="true" duration-ms="4" started-at="2022-05-13T23:40:31 GMT-11:00" finished-at="2022-05-13T23:40:31 GMT-11:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIT -->
+        <test-method status="PASS" signature="customerShouldLoginAndLogoutSuceessfully()[pri:0, instance:com.bank.testsuite.BankTest@4232c52b]" name="customerShouldLoginAndLogoutSuceessfully" duration-ms="143" started-at="2022-05-13T23:40:31 GMT-11:00" finished-at="2022-05-13T23:40:31 GMT-11:00">
+          <reporter-output>
+            <line>
+              <![CDATA[click on Coustomer login tab[[ChromeDriver: chrome on WINDOWS (4c4ace4372c470bed5dcf69f8ddd6bda)] -> xpath: //button[contains(text(),'Customer Login')]]<br>]]>
+            </line>
+            <line>
+              <![CDATA[select name from the dropdown<br>]]>
+            </line>
+            <line>
+              <![CDATA[click on login button: <br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- customerShouldLoginAndLogoutSuceessfully -->
+        <test-method status="PASS" signature="inIT()[pri:0, instance:com.bank.testsuite.BankTest@4232c52b]" name="inIT" is-config="true" duration-ms="3" started-at="2022-05-13T23:40:31 GMT-11:00" finished-at="2022-05-13T23:40:31 GMT-11:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIT -->
+        <test-method status="FAIL" signature="customerShouldWithdrawMoneySuccessfully()[pri:0, instance:com.bank.testsuite.BankTest@4232c52b]" name="customerShouldWithdrawMoneySuccessfully" duration-ms="10802" started-at="2022-05-13T23:40:31 GMT-11:00" finished-at="2022-05-13T23:40:42 GMT-11:00">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to find element with locator By.xpath: //span[contains(text(),'Transaction successful')]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-7JQ3E99', ip: '192.168.0.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //span[contains(text(),'Transaction successful')]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-7JQ3E99', ip: '192.168.0.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy14.getText(Unknown Source)
+at com.bank.utility.Utility.getTextFromElement(Utility.java:65)
+at com.bank.pages.AccountPage.getTransactionSucessfulMessage(AccountPage.java:92)
+at com.bank.testsuite.BankTest.customerShouldWithdrawMoneySuccessfully(BankTest.java:92)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1249)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[click on Coustomer login tab[[ChromeDriver: chrome on WINDOWS (4c4ace4372c470bed5dcf69f8ddd6bda)] -> xpath: //button[contains(text(),'Customer Login')]]<br>]]>
+            </line>
+            <line>
+              <![CDATA[select name from the dropdown<br>]]>
+            </line>
+            <line>
+              <![CDATA[click on login button: <br>]]>
+            </line>
+            <line>
+              <![CDATA[click on withdrawl tab[[ChromeDriver: chrome on WINDOWS (4c4ace4372c470bed5dcf69f8ddd6bda)] -> xpath: //body/div[3]/div[1]/div[2]/div[1]/div[3]/button[3]]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Enter withdraw amount: [[ChromeDriver: chrome on WINDOWS (4c4ace4372c470bed5dcf69f8ddd6bda)] -> xpath: //body/div[3]/div[1]/div[2]/div[1]/div[4]/div[1]/form[1]/div[1]/input[1]]<br>]]>
+            </line>
+            <line>
+              <![CDATA[clicck on withdraw button:  [[ChromeDriver: chrome on WINDOWS (4c4ace4372c470bed5dcf69f8ddd6bda)] -> xpath: //body/div[3]/div[1]/div[2]/div[1]/div[4]/div[1]/form[1]/div[1]/input[1]]<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- customerShouldWithdrawMoneySuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bank.testsuite.BankTest@4232c52b]" name="tearDown" is-config="true" duration-ms="570" started-at="2022-05-13T23:40:42 GMT-11:00" finished-at="2022-05-13T23:40:43 GMT-11:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bank.testsuite.BankTest -->
+    </test> <!-- xyz-bank -->
+  </suite> <!-- Default Suite -->
+</testng-results>
